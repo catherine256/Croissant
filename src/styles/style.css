@@ -1,57 +1,24 @@
-:root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+body {
+    background: #e8f1f7;
   }
-  body {
-      margin-top: 30px;
+  
+  h1,
+  p {
+    text-align: center;
   }
-
-img{
-    width: 50%;
-    height: 40%;
-    margin-top: 20Px;
-    margin-left: 20%;
+  
+  .croissant-photo {
+    max-width: 100%;
+    border-radius: 10px;
     display: block;
-
-}
-a{
-    text-decoration: none;
-}
-
-.navigation-links {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
+    margin: 30px auto;
   }
   
-  .navigation-links a {
-    margin: 20px;
+  footer {
+    text-align: center;
   }
   
-  .primary-link {
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-  }
-  
-  .secondary-link {
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-  }
-
-  .email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--primary-color);
-    font-size: 28px;
-    text-decoration: none;
+  footer a {
+    margin: 0 10px;
+    color: rgb(48, 3, 44);
   }
